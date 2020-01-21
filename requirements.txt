@@ -1,3 +1,4 @@
+pip
 Pillow
 PIL
 aiofiles
