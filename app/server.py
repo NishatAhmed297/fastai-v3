@@ -9,10 +9,14 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-3GApILkV6AX7UfwY6YUnNlkDA3l9aZn'
+export_file_name = 'Corn_New_Extra_Class_VGG19.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot',
+           'Corn_(maize)___Common_rust_',
+           'Corn_(maize)___healthy',
+           'Corn_(maize)___Northern_Leaf_Blight',
+           'Extra_Class']
 path = Path(__file__).parent
 
 app = Starlette()
