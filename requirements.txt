@@ -8,4 +8,4 @@ numpy
 starlette
 uvicorn
 python-multipart
-PIL
+Pillow
